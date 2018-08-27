@@ -36,3 +36,22 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-26 20:18:18 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/karna/.rvm/gems/ruby-2.5.1/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/karna/.rvm/gems/ruby-2.5.1/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 7ms (Views: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-26 20:40:31 -0400
+  
+SyntaxError (/home/karna/Documents/Rails/r_Projects/environment/toy_app/app/controllers/application_controller.rb:8: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/application_controller.rb:8: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2018-08-26 20:41:38 -0400
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 114ms (Views: 1.0ms)
+
+
